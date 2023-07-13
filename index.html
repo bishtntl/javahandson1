@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="play">
+        <button class="child" onclick="changeme()">Play Again</button>
+       
+    </div>
+    <div class="range">(Between 1 and 100)
+        
+    </div>
+    <div class="guess">Guess My Number!</div>
+    <hr >
+    
+    <div class="box"><span id="mark">?</span></div>
+    <div class="massage">Start Gussing</div>
+    
+    <input type="number" id="findnumber">
+    <div id="chance">💯Chances: <span class="decrease">100</span></div>
+    <div id="highscore">🎖️Higscore:<span class="high">0</span> </div>
+   
+    <button onclick="check()"  class="btn" >check!</button>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
